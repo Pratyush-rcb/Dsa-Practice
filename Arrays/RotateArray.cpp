@@ -11,7 +11,7 @@ public:
         for(int i=0;i<nums.size();i++){
             if((i+k)<n){
             brr[i+k]=nums[i];
-        }
+        } 
         else {
             brr[(i+k)%n]=nums[i];
         }
